@@ -24,6 +24,9 @@ const CadastroUsuario: React.FC = () => {
             <Input placeholder= "email" type='email'></Input>
 
 
+        <button type='submit'>Cadastrar</button>
+
+
 </Container>
 
     )
