@@ -1,26 +1,29 @@
 import React from 'react';
-import CardForms from "../../component/CardForms";
 import Input from '../../component/Input'
 import {Container , ContainerInpus} from './styles'
-
-
 
 const CadastroUsuario: React.FC = () => {
     return(
         
 <Container>
-        <CardForms>
-            <Input placeholder= "Nome"></Input>
-            <Input placeholder= "E-mail"></Input>
-            <Input placeholder= "Matricula"></Input>
-            <Input placeholder= "Grupo usuário"></Input>
-            <ContainerInpus>
-            <Input placeholder= "Senha" type='password'></Input>
-            <Input placeholder= "Nova senha" type='password'></Input>
-            </ContainerInpus>
+
+            <Input placeholder= "nome" type='text'></Input>
+            <Input placeholder= "sobrenome" type='text'></Input>
+            <Input placeholder= "cpf" type='text'></Input>
+            <Input placeholder= "dataNacimento" type='text'></Input>
+            <Input placeholder= "logradouro" type='text'></Input>
+            <Input placeholder= "complemento" type='text'></Input>
+            <Input placeholder= "bairro" type='text'></Input>
+            <Input placeholder= "localidade" type='text'></Input>
+            <Input placeholder= "uf" type='text'></Input>
+            <Input placeholder= "ibge" type='text'></Input>
+            <Input placeholder= "numero" type='text'></Input>
+            <Input placeholder= "logradouro" type='text'></Input>
+            <Input placeholder= "dd" type='text'></Input>
+            <Input placeholder= "telefone" type='text'></Input>
+            <Input placeholder= "email" type='email'></Input>
 
 
-        </CardForms>
 </Container>
 
     )
