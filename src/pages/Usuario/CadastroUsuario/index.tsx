@@ -1,6 +1,7 @@
 import React from 'react';
-import Input from '../../component/Input'
+
 import {Container , ContainerInpus} from './styles'
+import Input from "../../../component/Input";
 
 const CadastroUsuario: React.FC = () => {
     return(
