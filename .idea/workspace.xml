@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2443a6d6-174b-48ec-ad47-f8b6c67e0f8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Input/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/InputLogin/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/InputLogin/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/InputLogin/ok.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/InputLogin/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Layout/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Treino/CadastroTreino/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Treino/CadastroTreino/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Treino/CadastroTreino/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/thems/dark.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/thems/ligth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +27,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../menu" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\rdsdo\Desktop\Projetos\academia_front\node_modules\typescript\lib" />
@@ -84,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612397870758</updated>
-      <workItem from="1612397877060" duration="1724000" />
+      <workItem from="1612397877060" duration="4887000" />
     </task>
     <servers />
   </component>

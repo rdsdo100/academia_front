@@ -1,4 +1,5 @@
 import React from 'react'
+import Menu from "../../component/Menu";
 
 
 
@@ -7,7 +8,7 @@ import React from 'react'
 
 return(
      <div>
-      ola
+         <Menu/>
      </div>
 )
 }
