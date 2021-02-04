@@ -1,11 +1,11 @@
 import React from 'react'
-import {Component} from "./styles"
+import './styles.css'
 
 const Menu: React.FC = () => {
     return(
-        <Component>
+        <>
             
-        </Component>
+        </>
     )
 }
 

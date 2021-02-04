@@ -1,17 +1,17 @@
 import React from 'react';
-import {Container , ContainerInpus} from './styles'
+
 
 const CadastroTreino: React.FC = () => {
     return(
 
-<Container>
+<div>
 
 
 
     <h1>Treino</h1>
 
 
-</Container>
+</div>
 
     )
 }

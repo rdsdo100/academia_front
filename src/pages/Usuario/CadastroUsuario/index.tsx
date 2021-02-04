@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {Container , ContainerInpus} from './styles'
+
 import Input from "../../../component/Input";
 
 const CadastroUsuario: React.FC = () => {
     return(
         
-<Container>
+<div>
 
             <Input placeholder= "nome" type='text'></Input>
             <Input placeholder= "sobrenome" type='text'></Input>
@@ -28,7 +28,7 @@ const CadastroUsuario: React.FC = () => {
         <button type='submit'>Cadastrar</button>
 
 
-</Container>
+</div>
 
     )
 }
