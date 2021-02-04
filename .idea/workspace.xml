@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\Menu2" />
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\pages\Login" />
     </key>
   </component>
@@ -64,11 +64,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612397870758</updated>
-      <workItem from="1612397877060" duration="4887000" />
+      <workItem from="1612397877060" duration="7219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

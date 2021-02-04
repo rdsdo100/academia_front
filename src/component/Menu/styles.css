@@ -57,3 +57,16 @@ input[type = 'checkbox']:checked ~ nav {
 
 }
 
+.icon {
+     font-size: 35px;
+     color: rgba(160,150,140,.9);
+     padding: 0;
+     margin: 0;
+ }
+
+.icon2 {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0;
+    margin: 5px;
+}
