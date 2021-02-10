@@ -1,6 +1,4 @@
-import {createStore} from "redux";
-import reducer, {initialState} from "./reducer";
+import { createStore } from 'redux'
+import {notesReducer} from './notesReducer'
 
-const store = createStore(reducer, initialState);
-
-export default store
+export const store = createStore(notesReducer)

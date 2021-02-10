@@ -1,18 +1,6 @@
-import {
-    LoadUsersRequest,
-    LoadUsersSuccess,
-    LoadUsersError } from './types';
+export type Action = { type: "ADD_NOTE"; payload: string };
 
-
-
-export const loadUsersRequest = (): LoadUsersRequest => ({
-    type: 'loadUsersRequest',
-});
-
-
-export const loadUsersSuccess = (users: []): LoadUsersSuccess => ({  type: 'loadUsersSuccess',  users,
-});
-
-export const loadUsersError = (): LoadUsersError => ({
-    type: 'loadUsersError',
+export const addNote = (note: string): Action => ({
+  type: "ADD_NOTE",
+  payload: note,
 });
