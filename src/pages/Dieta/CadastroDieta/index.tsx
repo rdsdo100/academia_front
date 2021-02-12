@@ -1,22 +1,44 @@
 import React from 'react';
-import {useSelector} from "react-redux";
-import {NotesState} from "../../../store/notesReducer";
+import RepositoryList from "../../../component/ListRepository/RepositoryList";
+import {useDispatch, useSelector} from "react-redux";
+import {ApplicationState} from "../../../store";
+import {loadAuthSuccess} from "../../../store/ducks/auth/actions";
 
 
 const CadastroDieta: React.FC = () => {
 
-    const notes = useSelector<NotesState, NotesState["notes"]>(
-        (state) => state.notes
-    );
-    console.log( notes)
+    const dispath = useDispatch()
+    //const  repo = useSelector((state: ApplicationState) => state.auth.auth)
+    const  repo = useSelector((state: ApplicationState) => {
+        return state.auth.auth
+    })
+
+    function ok () {
+
+dispath(loadAuthSuccess({name: 'rubens'}))
+
+    }
 
 
     return(
-        
-<div>
-<h1>dieta</h1>
-</div>
+        <div>
+        <div>
 
+            {
+                String(repo)
+            }
+        </div>
+            <div>
+                <button
+                onClick={() =>{ok()}}
+                >teste</button>
+            </div>
+
+
+        </div>
     )
 }
+
 export default CadastroDieta
+
+
