@@ -4,7 +4,10 @@
     <list default="true" id="771c233b-6d14-452e-a941-61201a0688f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ErrorPage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ErrorPage/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <workItem from="1613087191307" duration="210000" />
       <workItem from="1613087487773" duration="6698000" />
       <workItem from="1613094425548" duration="1053000" />
-      <workItem from="1613095518984" duration="405000" />
+      <workItem from="1613095518984" duration="2068000" />
     </task>
     <servers />
   </component>

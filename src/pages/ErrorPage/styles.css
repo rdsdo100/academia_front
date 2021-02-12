@@ -1,0 +1,16 @@
+img {
+position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+h1 {
+    position: relative;
+    font-size: 150pt;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    top: 250px;
+    color: cornsilk;
+
+}

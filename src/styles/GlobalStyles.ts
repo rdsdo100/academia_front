@@ -11,10 +11,11 @@ export default createGlobalStyle `
     }
 
     html, body, #root {
-       
-        height: 100vm;
-        width: 100vm;
+      width: 100vw;
+      height: 100vh;
     }
+    
+   
 
     *, button, input {
         border: 0;
