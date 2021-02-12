@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771c233b-6d14-452e-a941-61201a0688f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ListRepository/RepositoryItem/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ListRepository/RepositoryList/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dieta/CadastroDieta/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/ducks/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ducks/rootReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +58,6 @@
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,6 +80,7 @@
       <workItem from="1613071702624" duration="29000" />
       <workItem from="1613087191307" duration="210000" />
       <workItem from="1613087487773" duration="6698000" />
+      <workItem from="1613094425548" duration="314000" />
     </task>
     <servers />
   </component>

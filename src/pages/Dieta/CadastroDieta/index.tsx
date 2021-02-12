@@ -1,5 +1,4 @@
 import React from 'react';
-import RepositoryList from "../../../component/ListRepository/RepositoryList";
 import {useDispatch, useSelector} from "react-redux";
 import {ApplicationState} from "../../../store";
 import {loadAuthSuccess} from "../../../store/ducks/auth/actions";
@@ -7,9 +6,12 @@ import {loadAuthSuccess} from "../../../store/ducks/auth/actions";
 
 const CadastroDieta: React.FC = () => {
 
+    let n: number
+
     const dispath = useDispatch()
-    //const  repo = useSelector((state: ApplicationState) => state.auth.auth)
+    //const  repo = useSelector((state: ApplicationState) => state.auth.auth) , [] ) // tem o monitorador igual ao useEffect
     const  repo = useSelector((state: ApplicationState) => {
+
         return state.auth.auth
     })
 
