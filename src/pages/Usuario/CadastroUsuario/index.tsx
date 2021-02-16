@@ -2,32 +2,39 @@ import React from 'react';
 
 
 import Input from "../../../component/Input";
+import Menu from "../../../component/Menu";
 
 const CadastroUsuario: React.FC = () => {
     return(
         
 <div>
+    <Menu/>
+    <div>
+        <div>
+            <Input type='text'> <label>Nome</label></Input>
+            <Input type='text'><label>Sobrenome</label></Input>
+        </div>
+        <div>
+            <Input type='text'><label>cpf</label></Input>
+            <Input type='text'><label>dataNacimento</label></Input>
+            <Input type='text'><label>logradouro</label></Input>
+            <Input type='text'><label>complemento</label></Input>
+            <Input type='text'><label>bairro</label></Input>
+            <Input type='text'><label>localidade</label></Input>
+            <Input type='text'><label>UF</label></Input>
+            <Input type='text'><label>ibge</label></Input>
+            <Input type='text'><label>numero</label></Input>
+            <Input type='text'><label>logradouro</label></Input>
+        </div>
+        <div>
+            <Input type='text'><label>DD</label></Input>
+            <Input type='text'><label>telefone</label></Input>
+        </div>
+    <div>
+            <Input type='email'><label>email</label></Input>
+    </div>
 
-            <Input placeholder= "nome" type='text'></Input>
-            <Input placeholder= "sobrenome" type='text'></Input>
-            <Input placeholder= "cpf" type='text'></Input>
-            <Input placeholder= "dataNacimento" type='text'></Input>
-            <Input placeholder= "logradouro" type='text'></Input>
-            <Input placeholder= "complemento" type='text'></Input>
-            <Input placeholder= "bairro" type='text'></Input>
-            <Input placeholder= "localidade" type='text'></Input>
-            <Input placeholder= "uf" type='text'></Input>
-            <Input placeholder= "ibge" type='text'></Input>
-            <Input placeholder= "numero" type='text'></Input>
-            <Input placeholder= "logradouro" type='text'></Input>
-            <Input placeholder= "dd" type='text'></Input>
-            <Input placeholder= "telefone" type='text'></Input>
-            <Input placeholder= "email" type='email'></Input>
-
-
-        <button type='submit'>Cadastrar</button>
-
-
+    </div>
 </div>
 
     )
