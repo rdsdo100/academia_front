@@ -3,11 +3,12 @@ import React from 'react';
 
 import Input from "../../../component/Input";
 import Menu from "../../../component/Menu";
+import Layout from "../../../component/Layout";
 
 const CadastroUsuario: React.FC = () => {
     return(
         
-<div>
+<Layout>
     <Menu/>
     <div>
         <div>
@@ -35,7 +36,7 @@ const CadastroUsuario: React.FC = () => {
     </div>
 
     </div>
-</div>
+</Layout>
 
     )
 }
