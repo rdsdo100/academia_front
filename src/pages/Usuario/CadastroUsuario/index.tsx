@@ -1,11 +1,12 @@
 import React from 'react';
-import Layout from "../../../component/Layout";
+import LayoutPrincipal from "../../../component/LayoutPrincipal";
+
 
 const CadastroUsuario: React.FC = () => {
     return(
         
-<Layout>
-
+<LayoutPrincipal>
+<div   ></div>
         {/*<div>
             <div>
                 <Input type='text'> <label>Nome</label></Input>
@@ -34,7 +35,7 @@ const CadastroUsuario: React.FC = () => {
     */}
 
 
-</Layout>
+</LayoutPrincipal>
 
     )
 }

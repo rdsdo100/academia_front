@@ -4,7 +4,7 @@ import MainHeader from "../MainHeader";
 import Menu from "../Menu";
 
 
-const Layout: React.FC = ({ children }) => {
+const LayoutCadastro: React.FC = ({ children }) => {
     return(
       <Container>
           <MainHeader>
@@ -16,4 +16,4 @@ const Layout: React.FC = ({ children }) => {
     )
 }
 
-export default Layout
+export default LayoutCadastro
