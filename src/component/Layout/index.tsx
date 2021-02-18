@@ -1,12 +1,12 @@
 import React from 'react'
-import {Container} from './styles'
+import './styles.css'
 
 
 const Layout: React.FC = ({ children }) => {
     return(
-      <Container className='layout_principal'>
+      <div className='layout_principal'>
           {children}
-      </Container>
+      </div>
     )
 }
 

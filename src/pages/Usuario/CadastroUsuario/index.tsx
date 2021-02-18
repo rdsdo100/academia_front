@@ -36,6 +36,12 @@ const CadastroUsuario: React.FC = () => {
     </div>
 
     </div>
+
+
+
+
+
+
 </Layout>
 
     )

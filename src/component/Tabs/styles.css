@@ -1,0 +1,52 @@
+
+.nav_tabs {
+    width:800px;
+    height: 700px;
+    margin: 100px ;
+    background-color: black;
+    position: relative ;
+    left: 70px;
+
+}
+.nav_tabs ul {
+    list-style: none;
+    top: 0;
+}
+
+.nav_tabs li {
+    float: left;
+}
+.nav_tabs .labelTabs {
+    position: relative;
+    width: 200px;
+    padding: 25px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.rd_tabs:checked ~ label {
+    background-color: #e54e43;
+}
+.rd_tabs {
+    display: none;
+}
+.content {
+    border-top: 5px solid #e54e43;
+    background-color: olivedrab;
+    display: none;
+    position: absolute;
+    height: 631px;
+    width: 800px;
+    left: 0;
+
+}
+.rd_tabs:checked ~ .content {
+    display: block;
+}
+.content article {
+    padding: 10px;
+}

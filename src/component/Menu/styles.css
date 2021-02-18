@@ -22,7 +22,7 @@ input[type = 'checkbox'] {
     display: none;
 }
 nav {
-    background-color: rgba(16,16,16,.5);
+    background-color: #aaa;
     width:  350px;
     height: 100%;
     position: absolute;
@@ -36,7 +36,7 @@ a {
 
 }
 a:hover {
-    background-color: rgb(176,224,230);
+    background-color: #8F8F8F;
     color: black;
 }
 label{

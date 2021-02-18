@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771c233b-6d14-452e-a941-61201a0688f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Layout/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Layout/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Toggle/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Toggle/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/thems/dark.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/thems/ligth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scripts-aprendizagem-desenvolvimento/Scripts de desenvolvimento/Web/Exemplos de codigos/menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Tabs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,9 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\Tabs" />
+      <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\Menu" />
+      <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\Menu2" />
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\Input" />
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\component\ListRepository" />
-      <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src\store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src" />
@@ -102,6 +119,9 @@
       <workItem from="1613439050665" duration="1279000" />
       <workItem from="1613503571980" duration="6864000" />
       <workItem from="1613522524320" duration="1123000" />
+      <workItem from="1613531844229" duration="37000" />
+      <workItem from="1613606333484" duration="3940000" />
+      <workItem from="1613610398698" duration="3363000" />
     </task>
     <servers />
   </component>
