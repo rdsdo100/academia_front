@@ -1,4 +1,6 @@
-div.layout_principal{
+import styled from 'styled-components';
+
+export const Container = styled.div`
     display: grid;
 
     grid-template-columns:  70px 100% ;
@@ -10,4 +12,5 @@ div.layout_principal{
 
     height: 100vh;
     min-width: 315px;
-}
+`;
+

@@ -4,9 +4,13 @@
     <list default="true" id="771c233b-6d14-452e-a941-61201a0688f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Tabs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Tabs/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Tabs/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Tabs/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Layout/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +98,7 @@
       <workItem from="1613606333484" duration="3940000" />
       <workItem from="1613610398698" duration="3363000" />
       <workItem from="1613615407611" duration="1945000" />
+      <workItem from="1613667167567" duration="1245000" />
     </task>
     <servers />
   </component>
