@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771c233b-6d14-452e-a941-61201a0688f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Layout/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Toggle/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Toggle/styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Tabs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Tabs/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Tabs/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Tabs/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Exercicio/CadastroExercicio/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Usuario/CadastroUsuario/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/thems/dark.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/thems/ligth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Tabs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Carteira" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,21 +62,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rdsdo\Desktop\Projetos\academia_front\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,6 +93,7 @@
       <workItem from="1613531844229" duration="37000" />
       <workItem from="1613606333484" duration="3940000" />
       <workItem from="1613610398698" duration="3363000" />
+      <workItem from="1613615407611" duration="1945000" />
     </task>
     <servers />
   </component>

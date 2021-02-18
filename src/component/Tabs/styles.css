@@ -6,6 +6,7 @@
     background-color: black;
     position: relative ;
     left: 70px;
+    box-shadow: 0 0 1em black;
 
 }
 .nav_tabs ul {
@@ -36,7 +37,7 @@
 }
 .content {
     border-top: 5px solid #e54e43;
-    background-color: olivedrab;
+    background-color: #8F8F8F;
     display: none;
     position: absolute;
     height: 631px;
