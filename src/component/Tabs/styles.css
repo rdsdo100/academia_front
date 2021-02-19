@@ -1,8 +1,7 @@
 
 .nav_tabs {
-    width:800px;
-    height: 700px;
-    margin: 100px ;
+    width:1100px;
+    height: 800px;
     background-color: black;
     position: relative ;
     left: 70px;
@@ -19,7 +18,7 @@
 }
 .nav_tabs .labelTabs {
     position: relative;
-    width: 200px;
+    width: 275px;
     padding: 25px;
     background-color: #363b48;
     display: block;
@@ -40,8 +39,8 @@
     background-color: #8F8F8F;
     display: none;
     position: absolute;
-    height: 631px;
-    width: 800px;
+    height: 731px;
+    width: 1100px;
     left: 0;
 
 }

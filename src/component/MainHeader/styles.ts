@@ -12,6 +12,8 @@ export const Container = styled.div`
     padding: 0 10px;
 
     border-bottom: 1px solid gray;
+  
+  z-index: 2;
 `;
 
 export const Profile = styled.div`

@@ -1,8 +1,7 @@
 import { action } from 'typesafe-actions';
-import { RepositoriesTypes, Repository } from './types';
+import { RotaTypes, Rotas } from './types';
 
-export const loadRequest = () => action(RepositoriesTypes.LOAD_REQUEST);  // segundo parametro seria o payload
+export const loadRequest = () => action(RotaTypes.LOAD_DELETE_ROTAS);  // segundo parametro seria o payload
 
-export const loadSuccess = (data: Repository[]) => action(RepositoriesTypes.LOAD_SUCCCES, { data });  // segundo parametro seria o payload
+export const loadSuccess = (data: Rotas[]) => action(RotaTypes.LOAD_CARREGAR_ROTAS, { data });  // segundo parametro seria o payload
 
-export const loadFailure = () => action(RepositoriesTypes.LOAD_FAILURE);  // segundo parametro seria o payload

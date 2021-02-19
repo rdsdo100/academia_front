@@ -1,28 +1,21 @@
 import { Reducer } from 'redux';
-import { RepositoriesState, RepositoriesTypes } from './types';
+import { RotasState, RotaTypes } from './types';
 
-const INITIAL_STATE: RepositoriesState = {
+const INITIAL_STATE: RotasState = {
   data: [
-    {id: 1 , name: "rubens"},
-    {id: 1 , name: "Diego"},
-    {id: 1 , name: "Foi!!!!"}
-  ],
-  error: false,
-  loading: false,
+    {id: 1 , nomeRota: "rubens" , caminhoRota: 'tt'},
+  ]
 };
 
-const reducer: Reducer<RepositoriesState> = (state = INITIAL_STATE, action) => {
+const reducer: Reducer<RotasState> = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case RepositoriesTypes.LOAD_REQUEST:
+    case RotaTypes.LOAD_CARREGAR_ROTAS:
       return { ...state, loading: true };
-    case RepositoriesTypes.LOAD_SUCCCES:
+    case RotaTypes.LOAD_DELETE_ROTAS:
       return {
       ...state, loading: false, error: false, data: action.payload.data,
       };
-    case RepositoriesTypes.LOAD_FAILURE:
-      return {
-      ...state, loading: false, error: true, data: [],
-      };
+
     default:
       return state;
   }

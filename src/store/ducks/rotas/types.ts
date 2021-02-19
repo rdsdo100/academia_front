@@ -2,10 +2,10 @@
 * Actions Types
 * define as acoes dentro do modulo do redux
 * */
-export enum RepositoriesTypes {
-  LOAD_REQUEST = '@repositories/LOAD_REQUEST',
-  LOAD_SUCCCES = '@repositories/LOAD_SUCCCES',
-  LOAD_FAILURE = '@repositories/LOAD_FAILURE'
+export enum RotaTypes {
+  LOAD_CARREGAR_ROTAS = '@repositories/LOAD_CARREGAR_ROTAS',
+  LOAD_DELETE_ROTAS = '@repositories/LOAD_DELETE_ROTAS',
+
 }
 
 /*
@@ -14,17 +14,16 @@ export enum RepositoriesTypes {
 * formato da finformação que estara dentro do reducer
 * */
 
-export interface Repository {
+export interface Rotas {
   id: number
-  name: string
+  nomeRota: string
+  caminhoRota: string
 }
 
 /*
 state types
  formato do estado estado que sera armazenado pelo reducer
 */
-export interface RepositoriesState {
-  readonly data: Repository[]
-  readonly loading: boolean
-  readonly error: boolean
+export interface RotasState {
+  readonly data: Rotas[]
 }
