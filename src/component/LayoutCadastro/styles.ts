@@ -15,8 +15,10 @@ export const Container = styled.div`
 
 export const Teste = styled.div`
     position: relative;
+    box-sizing: border-box;
   width: 70px;
   height: 70px;
+  padding : 5px;
   background-color: black;
   border: 1px solid #03e9f4;
 `;

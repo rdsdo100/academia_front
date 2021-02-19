@@ -1,3 +1,10 @@
 https://www.ibrahima-ndaw.com/blog/using-redux-with-react-typescript/
 
 https://codesandbox.io/s/react-redux-typescript-oc4hi?file=/src/App.tsx
+
+
+
+
+
+GRAFICOS 
+https://react-google-charts.com/
