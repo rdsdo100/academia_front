@@ -6,9 +6,9 @@ export const Tabelas = styled.div`
 `;
 
 export const NavTabs = styled.nav `
-  width:1100px;
-  height: 800px;
-  background-color: black;
+  width:1200px;
+  height: 700px;
+  background-color: ${props => props.theme.colors.secondary};
   position: relative ;
   left: 70px;
   box-shadow: 0 0 1em black;
@@ -22,17 +22,16 @@ export const UL = styled.div`
 
 export const LI = styled.div`
   float: left;
-
 `;
 
 
 export  const LabelTabs = styled.label`
   position: relative;
-  width: 275px;
+  width: 300px;
   padding: 25px;
-  background-color: ${props => props.theme.colors.white};;
+  background-color: ${props => props.theme.colors.black};
   display: block;
-  color: #fff;
+  color: ${props => props.theme.colors.white};
   cursor: pointer;
   text-align: center;
 
@@ -41,13 +40,13 @@ export  const LabelTabs = styled.label`
 export const Content = styled.div`
   
     border-top: 5px solid #e54e43;
-    background-color: #8F8F8F;
+    background-color: ${props => props.theme.colors.secondary};
     display: none;
     position: absolute;
-    height: 731px;
-    width: 1100px;
+    height: 631px;
+    width: 1200px;
     left: 0;
-  
+    
 `;
 
 export const RdTabs = styled.input`

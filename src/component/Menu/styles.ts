@@ -2,10 +2,17 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 import {ImMenu} from "react-icons/im";
 
+export const Container = styled.div`
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+    
+`;
+
 export const Nav = styled.nav`
 
   position: absolute;
-  background-color: #aaa;
+  background-color: ${props => props.theme.colors.primary};
   width:  350px;
   height: 100%;
   top: 0;
@@ -15,7 +22,7 @@ export const Nav = styled.nav`
 
 export const A = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: ${props => props.theme.colors.black};
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   display: block;
@@ -25,7 +32,7 @@ export const A = styled(Link)`
 
 
   &:hover {
-    background-color: #8F8F8F;
+    background-color: ${props => props.theme.colors.tertiary};
     color: black;
   }
   
@@ -48,7 +55,7 @@ export const UL = styled.ul`
 
 export  const  ImMenuIcons = styled(ImMenu)`
   font-size: 35px;
-  color: rgba(160,150,140,.9);
+  color: ${props => props.theme.colors.black};
   padding: 0;
   margin: 0;
 `;

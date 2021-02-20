@@ -4,8 +4,8 @@ import {RiUserAddLine} from "react-icons/ri";
 export const Container = styled.div`
   grid-area: CT ;
   display: grid;
-  grid-template-columns:  50px calc(100% - 50px)  ;
-  grid-template-rows:   calc(100vh - 70px) ;
+  grid-template-columns:  70px calc(100% - 70px)  ;
+  grid-template-rows:   calc(100vh - 50px) ;
   grid-template-areas:
           'OP CTT';
 

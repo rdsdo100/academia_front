@@ -5,7 +5,7 @@ export const Container = styled.div`
   position: relative;
   width: 70px;
   height: calc(100vh - 50px);
-  background-color: #888;
+  background-color: ${props => props.theme.colors.secondary};
   display: flex;
   flex-direction: column;
   

@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 
 export const Component = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient( ${props => props.theme.colors.primary}, ${props => props.theme.colors.success} );
     
 `;
 
