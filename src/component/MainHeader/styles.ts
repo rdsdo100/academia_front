@@ -1,19 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    grid-area: MH;
-    
+    grid-area: MH;   
     background-color: blue;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 0 10px;
-
-    border-bottom: 1px solid gray;
-  
-  z-index: 2;
+  padding: 0 10px;
+  z-index: 1;
 `;
 
 export const Profile = styled.div`

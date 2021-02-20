@@ -1,5 +1,5 @@
 import React from 'react';
-import ok from '../../assets/Error.jpg'
+import ok from '../../assets/Error.png'
 import {IMG , H1} from './styles'
 
 const ErrorPage: React.FC = () => {

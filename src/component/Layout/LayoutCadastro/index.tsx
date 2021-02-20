@@ -8,7 +8,6 @@ const LayoutCadastro: React.FC = ({ children }) => {
       <Container>
           {children}
           <BarraOpcoes>
-
               <Teste>
                   <TesteIcons></TesteIcons>
               </Teste>
