@@ -1,28 +1,26 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import './styles.css'
-import {ImMenu} from "react-icons/im";
-
+import {Nav , A , Label, UL, ImMenuIcons, InputCheck , Span} from './styles'
 
 const Menu: React.FC = () => {
     return(
         <div>
-            <input type='checkbox' id='check' ></input>
-            <label htmlFor="check">
-                <span>
-                    <ImMenu className='icon' />
-                </span>
-            </label>
-            <nav>
-                <ul>
-                    <li><Link to="/Inicio">Home</Link></li>
-                    <li><Link to="/cadastro-usuario">Usuário</Link></li>
-                    <li><Link to='/cadastro-dieta'>CadastroDieta</Link></li>
-                    <li><Link to='/cadastro-exercicio'>CadastroExercicio</Link></li>
-                    <li><Link to='/cadastro-treino'>CadastroTreino</Link></li>
-                    <li><Link to='/cadastro-academia'>Academia</Link></li>
-                </ul>
-            </nav>
+            <InputCheck type='checkbox' id='check' ></InputCheck>
+            <Label htmlFor="check">
+                <Span>
+                    <ImMenuIcons/>
+                </Span>
+            </Label>
+            <Nav>
+                <UL>
+                    <li><A to="/Inicio">Home</A></li>
+                    <li><A to="/cadastro-usuario">Usuário</A></li>
+                    <li><A to='/cadastro-dieta'>CadastroDieta</A></li>
+                    <li><A to='/cadastro-exercicio'>CadastroExercicio</A></li>
+                    <li><A to='/cadastro-treino'>CadastroTreino</A></li>
+                    <li><A to='/cadastro-academia'>Academia</A></li>
+                    <li><A to='/'>Sair</A></li>
+                </UL>
+            </Nav>
         </div>
 
     )

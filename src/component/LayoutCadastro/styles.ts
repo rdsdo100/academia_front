@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {RiUserAddLine} from "react-icons/ri";
 
 export const Container = styled.div`
   grid-area: CT ;  
@@ -19,9 +20,16 @@ export const Teste = styled.div`
   width: 70px;
   height: 70px;
   padding : 5px;
-  background-color: black;
+
   border: 1px solid #03e9f4;
 `;
 
 
+export const TesteIcons = styled(RiUserAddLine)`
 
+ 
+  width: 50px;
+  height: 50px;
+  color: white;
+
+`;

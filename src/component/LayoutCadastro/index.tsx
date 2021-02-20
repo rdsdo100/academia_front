@@ -1,6 +1,7 @@
 import React from 'react'
-import {Container, Teste} from "./styles"
+import {Container,TesteIcons, Teste} from "./styles"
 import BarraOpcoes from "../BarraOpcoes";
+
 
 const LayoutCadastro: React.FC = ({ children }) => {
     return(
@@ -8,7 +9,9 @@ const LayoutCadastro: React.FC = ({ children }) => {
           {children}
           <BarraOpcoes>
 
-              <Teste></Teste>
+              <Teste>
+                  <TesteIcons></TesteIcons>
+              </Teste>
               <Teste></Teste>
 
 

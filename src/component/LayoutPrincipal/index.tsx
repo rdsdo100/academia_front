@@ -8,9 +8,8 @@ const LayoutPrincipal: React.FC = ({ children }) => {
     return(
       <Container>
           <MainHeader>
-              <Menu></Menu>
+              <Menu/>
           </MainHeader>
-
           {children}
       </Container>
     )
