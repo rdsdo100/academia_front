@@ -1,5 +1,5 @@
 import React from 'react'
-import LayoutPrincipal from "../../component/LayoutPrincipal";
+import LayoutPrincipal from "../../component/layout/LayoutPrincipal";
 
 
  const Home: React.FC = () => {

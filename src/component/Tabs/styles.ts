@@ -1,10 +1,8 @@
 import styled from "styled-components";
-import {Label} from "../InputLogin/styles";
+
 
 export const Tabelas = styled.div`
-
-
-
+    
 `;
 
 export const NavTabs = styled.nav `
@@ -32,15 +30,13 @@ export  const LabelTabs = styled.label`
   position: relative;
   width: 275px;
   padding: 25px;
-  background-color: #363b48;
+  background-color: ${props => props.theme.colors.white};;
   display: block;
   color: #fff;
   cursor: pointer;
   text-align: center;
 
 `;
-
-
 
 export const Content = styled.div`
   
@@ -51,14 +47,12 @@ export const Content = styled.div`
     height: 731px;
     width: 1100px;
     left: 0;
-
   
 `;
 
 export const RdTabs = styled.input`
   display: none;
-
-
+  
   &:checked ~ ${LabelTabs} {
     background-color: #e54e43;
   }
@@ -68,8 +62,3 @@ export const RdTabs = styled.input`
   }
   
 `;
-
-
-
-
-

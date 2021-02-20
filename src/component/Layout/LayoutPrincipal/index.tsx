@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container} from "./styles"
-import MainHeader from "../MainHeader";
-import Menu from "../Menu";
+import MainHeader from "../../MainHeader";
+import Menu from "../../Menu";
 
 
 const LayoutPrincipal: React.FC = ({ children }) => {
