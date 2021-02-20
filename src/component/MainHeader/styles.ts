@@ -14,6 +14,3 @@ export const Profile = styled.div`
     color: white;
 `;
 
-export const Welcome = styled.h3``;
-
-export const UserName = styled.span``;

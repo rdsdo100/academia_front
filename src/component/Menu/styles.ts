@@ -40,8 +40,8 @@ export const A = styled(Link)`
 
 export const Label = styled.label`
 
-    padding: 15px;
-    position: absolute;
+    padding: 0;
+    position: relative;
     z-index: 1;
 
 `;
@@ -55,6 +55,7 @@ export const UL = styled.ul`
 
 export  const  ImMenuIcons = styled(ImMenu)`
   font-size: 35px;
+  position: relative;
   color: ${props => props.theme.colors.black};
   padding: 0;
   margin: 0;
@@ -67,7 +68,6 @@ export  const InputCheck = styled.input`
   }
 `;
 export const  Span = styled.span`
-  position: absolute;
-top: 0px;
-
+  position: relative;
+  top: 0px;
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {NavTabs, UL , LI , LabelTabs , RdTabs , Content} from './styles'
+import InputCAdastro from "../input/InputCadastro";
 
 const Tabs: React.FC = () => {
 
@@ -12,7 +13,7 @@ const Tabs: React.FC = () => {
                         <RdTabs type='radio' name='tabs' id='tab1' />
                         <LabelTabs  htmlFor="tab1">Usuário</LabelTabs>
                         <Content>
-
+<InputCAdastro>Nome</InputCAdastro>
                         </Content>
                     </LI>
                     <LI>
