@@ -1,9 +1,9 @@
 import React, {ChangeEvent, useState} from 'react'
 import {useHistory} from 'react-router-dom'
-import './styles.css'
 import LoginServer from "../../services/LoginServer";
 import {useDispatch} from "react-redux";
 import {loadAuthSuccess} from "../../store/ducks/auth/actions";
+import { Component,LoginBox, H2, UserBox , Input , Label , A} from './styles'
 
 const Login: React.FC = () => {
 
@@ -17,6 +17,7 @@ const Login: React.FC = () => {
         const {value} = event.target
         setUsuario(String(value))
     }
+
     function habdleInputSenha(event : ChangeEvent<HTMLInputElement>) {
         const {value} = event.target
         setSenha(String(value))
@@ -41,32 +42,32 @@ console.log(login.data.authorization)
     }
 
 return(
-    <div className='tela'>
-        <div className='login-box'>
-            <h2>Login</h2>
+    <Component>
+        <LoginBox className='login-box'>
+            <H2>Login</H2>
             <form action="">
-                <div className='user-box'>
-                    <input type='text' required
+                <UserBox className='user-box'>
+                    <Input type='text' required
                            name="usuario"
                            onChange={habdleInputUsuario}
 
                     />
-                    <label>Usuário</label>
-                </div>
-                <div className='user-box'>
-                    <input type='password' required
+                    <Label>Usuário</Label>
+                </UserBox>
+                <UserBox className='user-box'>
+                    <Input type='password' required
                            name="senha"
                            onChange={habdleInputSenha}
                     />
-                    <label>Senha</label>
-                </div>
+                    <Label>Senha</Label>
+                </UserBox>
                 <span>{error}</span>
-                <a type='submit'
+                <A type='submit'
                    onClick={()=>{handleEntrar()}}
-                >Entrar</a>
+                >Entrar</A>
             </form>
-        </div>
-    </div>
+        </LoginBox>
+    </Component>
 )
 }
 export default Login
