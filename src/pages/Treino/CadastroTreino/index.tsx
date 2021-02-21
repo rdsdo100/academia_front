@@ -1,17 +1,15 @@
 import React from 'react';
+import {Component} from "./styles";
+import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
 
 
 const CadastroTreino: React.FC = () => {
     return(
 
-<div>
-
-
-
-    <h1>Treino</h1>
-
-
-</div>
+        <Component>
+            <LayoutPrincipal>
+            </LayoutPrincipal>
+        </Component>
 
     )
 }

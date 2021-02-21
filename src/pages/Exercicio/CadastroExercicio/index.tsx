@@ -1,15 +1,14 @@
 import React from 'react';
-
-import Tabs from "../../../component/Tabs";
+import {Component} from "./styles";
+import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
 
 
 const CadastroExercicio: React.FC = () => {
     return(
-        <div>
-        <Tabs>
-
-        </Tabs>
-        </div>
+        <Component>
+            <LayoutPrincipal>
+            </LayoutPrincipal>
+        </Component>
     )
 }
 export default CadastroExercicio

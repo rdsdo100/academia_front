@@ -14,6 +14,7 @@ const Tabs: React.FC = () => {
                         <LabelTabs  htmlFor="tab1">Usuário</LabelTabs>
                         <Content>
 <InputCAdastro>Nome</InputCAdastro>
+                            <InputCAdastro>SobreNome</InputCAdastro>
                         </Content>
                     </LI>
                     <LI>

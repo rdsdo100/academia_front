@@ -16,7 +16,6 @@ export const  Input = styled.input`
   padding: 10px 0;
   font-size: 14px;
   color: white;
-  margin-bottom: 30px;
   border-radius: 8px;
   border: 2px solid ${props => props.theme.colors.primary};
   outline: none;

@@ -18,7 +18,7 @@ export const H1 = styled.h1`
   font-family: Roboto, sans-serif;
   text-align: center;
   top: 250px;
-  color: rgb(90,90,90);
+  color: ${props => props.theme.colors.tertiary};
 
 
 `;
