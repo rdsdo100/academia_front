@@ -1,15 +1,13 @@
-import React, {MouseEventHandler} from 'react';
+import React from 'react';
 
 import {NavTabs, UL , LI , LabelTabs , RdTabs ,
-    Content , DivColunaNome, DivLinha , DivColunaSobrenomeNome,
-    DivColunaCpf , DivColunaDataNacimento,DivColunaSenha, DivColunaTipoUsuario, DivColunaUsuario,
-    DivDD, DivTelefone
+    Content ,  DivLinha , Div20, Div30, Div40, Div50, Div60, Div100
 } from './styles'
 import InputCadastro from "../input/InputCadastro";
 
 const Tabs: React.FC = () => {
 
-        return(
+    return(
         <div>
             <NavTabs>
                 <UL>
@@ -18,36 +16,52 @@ const Tabs: React.FC = () => {
                         <LabelTabs  htmlFor="tab1">Usuário</LabelTabs>
                         <Content>
                             <DivLinha>
-                                <DivColunaCpf>
+                                <Div30>
                                     <InputCadastro>CPF</InputCadastro>
-                                </DivColunaCpf>
-                                <DivColunaDataNacimento>
-                                    <InputCadastro>Data de Nacimento</InputCadastro>
-                                </DivColunaDataNacimento>
+                                </Div30>
+                                <Div30>
+                                    <InputCadastro type='date'>Data de Nacimento</InputCadastro>
+                                </Div30>
                             </DivLinha>
 
                             <DivLinha>
-                                <DivColunaNome>
+                                <Div40>
                                     <InputCadastro>Nome</InputCadastro>
-                                </DivColunaNome>
-                                <DivColunaSobrenomeNome>
+                                </Div40>
+                                <Div60>
                                     <InputCadastro>SobreNome</InputCadastro>
-                                </DivColunaSobrenomeNome>
+                                </Div60>
                             </DivLinha>
 
                             <DivLinha>
-                                <DivColunaUsuario>
-                                <InputCadastro>Nome de Usuário</InputCadastro>
-                                </DivColunaUsuario>
-                                <DivColunaTipoUsuario>
-                                <InputCadastro>Nível Usuário</InputCadastro>
-                                </DivColunaTipoUsuario>
+                                <Div60>
+                                    <InputCadastro type='email'>email</InputCadastro>
+                                </Div60>
                             </DivLinha>
 
                             <DivLinha>
-                                <DivColunaSenha>
-                                    <InputCadastro>Senha</InputCadastro>
-                                </DivColunaSenha>
+                                <Div20>
+                                    <InputCadastro type='text'>DD</InputCadastro>
+                                </Div20>
+                                <Div60>
+                                    <InputCadastro type='text'>telefone</InputCadastro>
+                                </Div60>
+
+                            </DivLinha>
+
+                            <DivLinha>
+                                <Div50>
+                                    <InputCadastro>Nome de Usuário</InputCadastro>
+                                </Div50>
+                                <Div50>
+                                    <InputCadastro>Nível Usuário</InputCadastro>
+                                </Div50>
+                            </DivLinha>
+
+                            <DivLinha>
+                                <Div100>
+                                    <InputCadastro type='password'>Senha</InputCadastro>
+                                </Div100>
                             </DivLinha>
 
                         </Content>
@@ -56,6 +70,11 @@ const Tabs: React.FC = () => {
                         <RdTabs type='radio' name='tabs' id='tab2' defaultChecked={false} />
                         <LabelTabs  htmlFor="tab2">Endereco</LabelTabs>
                         <Content >
+                            <DivLinha>
+                                <Div40>
+                                    <InputCadastro>Cep</InputCadastro>
+                                </Div40>
+                            </DivLinha>
                             <DivLinha>
                                 <InputCadastro>logradouro</InputCadastro>
                                 <InputCadastro>complemento</InputCadastro>
@@ -75,26 +94,16 @@ const Tabs: React.FC = () => {
                     </LI>
                     <LI>
                         <RdTabs type='radio' name='tabs' id='tab3' defaultChecked={false}/>
-                        <LabelTabs  htmlFor="tab3">Telefone</LabelTabs>
+                        <LabelTabs  htmlFor="tab3">Permissoes</LabelTabs>
                         <Content className="content">
-                            <DivLinha>
-                                <DivDD>
-                                    <InputCadastro type='text'>DD</InputCadastro>
-                                </DivDD>
-                                <DivTelefone>
-                                    <InputCadastro type='text'>telefone</InputCadastro>
-                                </DivTelefone>
 
-                            </DivLinha>
                         </Content>
                     </LI>
                     <LI>
                         <RdTabs type='radio' name='tabs' id='tab4' defaultChecked={false} />
                         <LabelTabs  htmlFor="tab4">Email</LabelTabs>
                         <Content className="content">
-                        <DivLinha>
-                            <InputCadastro type='email'>email</InputCadastro>
-                        </DivLinha>
+
                         </Content>
                     </LI>
                 </UL>

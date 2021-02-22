@@ -1,4 +1,4 @@
-import {api, apiLogin} from "./api";
+import {apiLogin} from "./api";
 
 export default class LoginServer {
 

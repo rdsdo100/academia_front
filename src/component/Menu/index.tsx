@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Nav , A , Label, UL, ImMenuIcons, InputCheck , Span} from './styles'
+import {Nav , A , Label, UL, ImMenuIcons, InputCheck , Span} from './styles'
 
 const Menu: React.FC = () => {
     return(

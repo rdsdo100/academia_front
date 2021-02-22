@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useState} from 'react';
+import React from 'react';
 import {Component} from './styles'
 import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
 
