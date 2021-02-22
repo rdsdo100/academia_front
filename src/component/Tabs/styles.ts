@@ -6,8 +6,8 @@ export const Tabelas = styled.div`
 `;
 
 export const NavTabs = styled.nav `
-  width:1200px;
-  height: 700px;
+  width:1110px;
+  height: 600px;
   background-color: ${props => props.theme.colors.primary};
   position: relative ;
   left: 70px;
@@ -29,7 +29,7 @@ export const LI = styled.div`
 
 export  const LabelTabs = styled.label`
   position: relative;
-  width: 300px;
+  width: 370px;
   padding: 25px;
   background-color: ${props => props.theme.colors.black};
   display: block;
@@ -45,8 +45,8 @@ export const Content = styled.div`
     background-color: ${props => props.theme.colors.secondary};
     display: none;
     position: absolute;
-    height: 631px;
-    width: 1200px;
+    height: 531px;
+    width: 1110px;
     left: 0;
     
 `;

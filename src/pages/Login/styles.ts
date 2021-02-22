@@ -59,7 +59,8 @@ export const Label = styled.label`
   pointer-events: none;
   transition: .5s;
 
-  ${Input}:focus ~ & {
+  ${Input}:focus ~ &,
+  ${Input}:valid ~ &{
     top: -20px;
     left: 0;
     color: #03e9f4;

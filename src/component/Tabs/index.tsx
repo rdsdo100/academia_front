@@ -4,6 +4,7 @@ import {NavTabs, UL , LI , LabelTabs , RdTabs ,
     Content ,  DivLinha , Div20, Div30, Div40, Div50, Div60, Div100
 } from './styles'
 import InputCadastro from "../input/InputCadastro";
+import Toggle from "../input/Toggle";
 
 const Tabs: React.FC = () => {
 
@@ -22,6 +23,9 @@ const Tabs: React.FC = () => {
                                 <Div30>
                                     <InputCadastro type='date'>Data de Nacimento</InputCadastro>
                                 </Div30>
+
+                                <Toggle/>
+                                <Toggle/>
                             </DivLinha>
 
                             <DivLinha>
@@ -99,13 +103,7 @@ const Tabs: React.FC = () => {
 
                         </Content>
                     </LI>
-                    <LI>
-                        <RdTabs type='radio' name='tabs' id='tab4' defaultChecked={false} />
-                        <LabelTabs  htmlFor="tab4">Email</LabelTabs>
-                        <Content className="content">
 
-                        </Content>
-                    </LI>
                 </UL>
 
             </NavTabs>
