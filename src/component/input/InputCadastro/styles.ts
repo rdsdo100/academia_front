@@ -33,12 +33,15 @@ export const  Label = styled.label`
   transition: .5s;
 
 
-  ${Input}:focus ~ & {
+  ${Input}:focus ~ &,
+  ${Input}:valid ~ &
+  {
     top: -25px;
     left: 0;
     color: white;
     font-size: 14px;
   }
+ 
   
   
 `;

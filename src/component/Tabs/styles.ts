@@ -59,5 +59,45 @@ export const RdTabs = styled.input`
   :checked ~ ${Content} {
     display: block;
   }
-  
+   
+`;
+
+export const DivLinha = styled.div`
+display: flex;
+`;
+
+export const DivColunaCpf = styled.div`
+width: 30%;
+
+`;
+
+export const DivColunaDataNacimento = styled.div`
+width: 35%`;
+
+export const DivColunaNome = styled.div`
+  width: 40%;
+`;
+
+export const DivColunaSobrenomeNome = styled.div`
+  width: 60%;
+`;
+
+export const DivColunaSenha = styled.div`
+  width: 50%;
+`;
+
+export const DivColunaUsuario = styled.div`
+  width: 50%;
+`;
+
+export const DivColunaTipoUsuario = styled.div`
+  width: 50%;
+`;
+
+export const DivDD = styled.div`
+  width: 15%;
+`;
+
+export const DivTelefone = styled.div`
+  width: 40%;
 `;

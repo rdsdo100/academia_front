@@ -35,7 +35,8 @@ export const  Label = styled.label`
   transition: .5s;
 
 
-  ${Input}:focus ~ & {
+  ${Input}:focus ~ &,
+  ${Input}:valid ~ &{
     top: -20px;
     left: 0;
     color: red;
