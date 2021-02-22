@@ -53,15 +53,15 @@ const Tabs: React.FC = () => {
                                 <Div50>
                                     <InputCadastro>Nome de Usuário</InputCadastro>
                                 </Div50>
-                                <Div50>
+                                <Div30>
                                     <InputCadastro>Nível Usuário</InputCadastro>
-                                </Div50>
+                                </Div30>
                             </DivLinha>
 
                             <DivLinha>
-                                <Div100>
+                                <Div60>
                                     <InputCadastro type='password'>Senha</InputCadastro>
-                                </Div100>
+                                </Div60>
                             </DivLinha>
 
                         </Content>
