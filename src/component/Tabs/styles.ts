@@ -8,10 +8,12 @@ export const Tabelas = styled.div`
 export const NavTabs = styled.nav `
   width:1200px;
   height: 700px;
-  background-color: ${props => props.theme.colors.secondary};
+  background-color: ${props => props.theme.colors.primary};
   position: relative ;
   left: 70px;
   box-shadow: 0 0 1em black;
+  display: flex;
+
 `;
 
 export const UL = styled.div`

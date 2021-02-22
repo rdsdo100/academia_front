@@ -11,7 +11,7 @@ const Tabs: React.FC = () => {
 
         return(
         <div>
-            <NavTabs className='nav_tabs'>
+            <NavTabs>
                 <UL>
                     <LI>
                         <RdTabs type='radio' name='tabs' id='tab1' defaultChecked={true} />
@@ -98,6 +98,7 @@ const Tabs: React.FC = () => {
                         </Content>
                     </LI>
                 </UL>
+
             </NavTabs>
         </div>
     )
