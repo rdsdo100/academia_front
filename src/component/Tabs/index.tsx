@@ -13,6 +13,7 @@ const Tabs: React.FC = () => {
             <NavTabs>
                 <UL>
                     <LI>
+                        <div>
                         <RdTabs type='radio' name='tabs' id='tab1' defaultChecked={true} />
                         <LabelTabs  htmlFor="tab1">Usuário</LabelTabs>
                         <Content>
@@ -69,6 +70,7 @@ const Tabs: React.FC = () => {
                             </DivLinha>
 
                         </Content>
+                        </div>
                     </LI>
                     <LI>
                         <RdTabs type='radio' name='tabs' id='tab2' defaultChecked={false} />
