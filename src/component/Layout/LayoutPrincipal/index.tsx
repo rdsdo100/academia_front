@@ -9,6 +9,9 @@ const LayoutPrincipal: React.FC = ({ children }) => {
       <Container>
           <MainHeader>
               <Menu/>
+              {children}
+              <h4>Rubens</h4>
+
           </MainHeader>
           {children}
       </Container>
