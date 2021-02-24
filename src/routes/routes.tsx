@@ -9,6 +9,7 @@ import Academia from "../pages/Academia";
 import ErrorPage from "../pages/ErrorPage";
 import Login from "../pages/Login";
 import ToVivo from "../pages/ToVivo";
+import CadastroMedidas from "../pages/Medidas/CadastroMedidas";
 
 
 
@@ -36,6 +37,7 @@ const Routes =  () =>{
       <PrivateRoute component={CadastroExercicio} path='/cadastro-exercicio'></PrivateRoute>
       <PrivateRoute component={CadastroTreino} path='/cadastro-treino'></PrivateRoute>
       <PrivateRoute component={Academia} path='/cadastro-academia'></PrivateRoute>
+      <PrivateRoute component={CadastroMedidas} path='/cadastro-medidas'></PrivateRoute>
       <Route component={ErrorPage} path='*'></Route>
     
 

@@ -18,54 +18,30 @@ interface IEndereco{
     numero: string
 
 }
+
 interface Iusuario{
-
+        nomeUsuario: string
+        senha: string
+        tipoUsuario: number
+        academia: number
 }
+
 interface IEmail{
-
+    email: string
 }
+
 interface ITelefone{
-
+    dd: string
+    telefone: string
 }
+
 interface IPessoa{
-
+    nome: string
+    sobrenome: string
+    cpf: string
+    dataCadastro?: Date
+    dataNacimento: Date
 }
-
-
-/*
-*  pessoas.nome = String(request.body.pessoa.nome);
-        pessoas.sobrenome = String(request.body.pessoa.sobrenome);
-        pessoas.cpf = String(request.body.pessoa.cpf);
-        pessoas.dataCadastro = new Date();
-        pessoas.dataNacimento = new Date();
-
-        enderecos.cep = String(request.body.endereco.cep);
-        enderecos.logradouro = String(request.body.endereco.logradouro);
-        enderecos.complemento = String(request.body.endereco.complemento);
-        enderecos.bairro = String(request.body.endereco.bairro);
-        enderecos.localidade = String(request.body.endereco.localidade);
-        enderecos.uf = String(request.body.endereco.uf);
-        enderecos.ibge = String(request.body.endereco.ibge);
-        enderecos.numero = String(request.body.endereco.numero);
-
-         telefones.dd = String(request.body.telefone.dd);
-        telefones.telefone = String(request.body.telefone.telefone);
-
-        emails.email = String(request.body.email.email);
-
-        tiposUsuarios.id = Number(request.body.usuario.tipoUsuario);
-
-       academias.id = Number(request.body.usuario.academia);
-
-        usuarios.nomeUsuario = String(request.body.usuario.nomeUsuario);
-        usuarios.email = String(request.body.email.email);
-        usuarios.senha = String(request.body.usuario.senha);
-        usuarios.ativo = true;
-        usuarios.tiposUsuariosIdFK = tiposUsuarios;
-        usuarios.academiasIdFK = academias;
-*
-* */
-
 
 const CadastroUsuario: React.FC = () => {
 
