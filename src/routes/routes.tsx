@@ -8,6 +8,7 @@ import CadastroTreino from "../pages/Treino/CadastroTreino";
 import Academia from "../pages/Academia";
 import ErrorPage from "../pages/ErrorPage";
 import Login from "../pages/Login";
+import ToVivo from "../pages/ToVivo";
 
 
 
@@ -27,7 +28,8 @@ const Routes =  () =>{
   <BrowserRouter>
     <Switch> // não deixa mais de uma rota ser chamada ao mesmo tempo
 
-      <Route component={Login} path='/' exact ></Route>
+      <Route component={ToVivo} path='/' exact ></Route>
+      <Route component={Login} path='/login' exact ></Route>
       <PrivateRoute component={Home} path='/home' ></PrivateRoute>
       <PrivateRoute component={CadastroUsuario} path='/cadastro-usuario'></PrivateRoute>
       <PrivateRoute component={CadastroDieta} path='/cadastro-dieta'></PrivateRoute>
