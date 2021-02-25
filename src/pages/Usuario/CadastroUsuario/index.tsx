@@ -6,6 +6,7 @@ import {Tabelas} from './styles'
 import {Div20, Div30, Div40, Div50, Div60, DivLinha} from "../../../component/TabsComponents/styles";
 import InputCadastro from "../../../component/input/InputCadastro";
 import Toggle from "../../../component/input/Toggle";
+import InputDate from "../../../component/input/InputDate";
 
 interface IEndereco{
     cep: string
@@ -56,9 +57,12 @@ const CadastroUsuario: React.FC = () => {
                         <Div30>
                             <InputCadastro>CPF</InputCadastro>
                         </Div30>
-                        <Div30>
-                            <InputCadastro type='date'>Data de Nacimento</InputCadastro>
-                        </Div30>
+                        <Div20>
+                            <InputDate>Data de Nacimento</InputDate>
+                        </Div20>
+                        <Div20>
+                            <InputDate>Data de Cadastro</InputDate>
+                        </Div20>
 
                         <Toggle/>
                         <Toggle/>
