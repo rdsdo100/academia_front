@@ -1,8 +1,8 @@
 import React from 'react';
 import {Component} from "./styles";
-import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
+import LayoutPrincipal from "../../../component/Layout/LayoutPrincipal";
 import {Tabs, Tab} from '../../../component/TabsComponents'
-import LayoutCadastro from "../../../component/layout/LayoutCadastro";
+import LayoutCadastro from "../../../component/Layout/LayoutCadastro";
 import { Div20, Div30, Div40, Div50, Div60, DivLinha} from "../../../component/TabsComponents/styles";
 import InputCadastro from "../../../component/input/InputCadastro";
 import Toggle from "../../../component/input/Toggle";

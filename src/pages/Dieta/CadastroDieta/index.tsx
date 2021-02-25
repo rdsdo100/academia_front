@@ -1,6 +1,6 @@
 import React from 'react';
 import {Component} from './styles'
-import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
+import LayoutPrincipal from "../../../component/Layout/LayoutPrincipal";
 
 const CadastroDieta: React.FC = () => {
 

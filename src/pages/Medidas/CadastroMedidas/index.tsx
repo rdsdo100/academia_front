@@ -1,6 +1,6 @@
 import React from 'react';
-import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
-import LayoutCadastro from "../../../component/layout/LayoutCadastro";
+import LayoutPrincipal from "../../../component/Layout/LayoutPrincipal";
+import LayoutCadastro from "../../../component/Layout/LayoutCadastro";
 
 interface IMedidas{
     idAluno: number

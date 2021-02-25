@@ -1,6 +1,6 @@
 import React from 'react';
-import LayoutPrincipal from "../../../component/layout/LayoutPrincipal";
-import LayoutCadastro from "../../../component/layout/LayoutCadastro";
+import LayoutPrincipal from "../../../component/Layout/LayoutPrincipal";
+import LayoutCadastro from "../../../component/Layout/LayoutCadastro";
 import {Tabs, Tab} from '../../../component/TabsComponents'
 import {Tabelas} from './styles'
 import {Div20, Div30, Div40, Div50, Div60, DivLinha} from "../../../component/TabsComponents/styles";
@@ -44,8 +44,6 @@ interface IPessoa{
 }
 
 const CadastroUsuario: React.FC = () => {
-
-
 
     return(
         
