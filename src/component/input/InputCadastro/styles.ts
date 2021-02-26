@@ -15,7 +15,7 @@ export const  Input = styled.input`
   width: 100%;
   padding: 10px 0;
   font-size: 14px;
-  color: white;
+  color: ${props => props.theme.colors.gray};
   border-radius: 8px;
   border: 2px solid ${props => props.theme.colors.primary};
   outline: none;
@@ -28,7 +28,7 @@ export const  Label = styled.label`
   left: 15px;
   padding: 10px 0;
   font-size: 14px;
-  color: azure;
+  color: ${props => props.theme.colors.gray};
   pointer-events: none;
   transition: .5s;
 
@@ -38,7 +38,7 @@ export const  Label = styled.label`
   {
     top: -25px;
     left: 0;
-    color: white;
+    color: ${props => props.theme.colors.gray};
     font-size: 14px;
   }
  

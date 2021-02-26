@@ -23,7 +23,7 @@ export const Content = styled.div`
     background-color: ${props => props.theme.colors.secondary};
     display: none;
     position: absolute;
-    height: 531px;
+    height: 431px;
     width: 1110px;
     left: 0;
     

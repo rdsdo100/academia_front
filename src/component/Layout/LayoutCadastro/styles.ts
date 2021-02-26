@@ -5,7 +5,7 @@ export const Container = styled.div`
   grid-area: CT ;
   display: grid;
   grid-template-columns:  70px calc(100% - 70px)  ;
-  grid-template-rows:   calc(100% - 50px) ;
+  grid-template-rows:   100% ;
   grid-template-areas:
           'OP CTT';
  
@@ -23,6 +23,6 @@ export const Teste = styled.div`
 export const TesteIcons = styled(RiUserAddLine)`
   width: 50px;
   height: 50px;
-  color: white;
+  color: ${props => props.theme.colors.gray};
 
 `;

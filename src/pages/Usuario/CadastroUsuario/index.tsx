@@ -46,10 +46,13 @@ interface IPessoa{
 
 const CadastroUsuario: React.FC = () => {
 
+
+
     return(
         
 <LayoutPrincipal>
     <LayoutCadastro>
+
         <Tabelas>
             <Tab>
                 <Tabs IdNameTab={'tab1'} text={"Pessoa"} defaultCheckedTab={true} >
@@ -140,7 +143,11 @@ const CadastroUsuario: React.FC = () => {
 
 
             </Tab>
+
         </Tabelas>
+
+
+
     </LayoutCadastro>
 </LayoutPrincipal>
 

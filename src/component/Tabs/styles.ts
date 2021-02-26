@@ -11,7 +11,7 @@ export const NavTabs = styled.nav `
   background-color: ${props => props.theme.colors.primary};
   position: relative ;
   left: 70px;
-  box-shadow: 0 0 1em black;
+  box-shadow: 0 0 1em ${props => props.theme.colors.black};
   display: flex;
 
 `;
@@ -41,7 +41,7 @@ export  const LabelTabs = styled.label`
 
 export const Content = styled.div`
   
-    border-top: 5px solid #e54e43;
+    border-top: 5px solid ${props => props.theme.colors.black};
     background-color: ${props => props.theme.colors.secondary};
     display: none;
     position: absolute;
@@ -55,7 +55,7 @@ export const RdTabs = styled.input`
   display: none;
   
   &:checked ~ ${LabelTabs} {
-    background-color: #e54e43;
+    background-color: ${props => props.theme.colors.tertiary};
   }
 
   :checked ~ ${Content} {
