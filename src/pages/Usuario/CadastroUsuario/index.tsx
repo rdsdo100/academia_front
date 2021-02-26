@@ -46,6 +46,32 @@ interface IPessoa{
 }
 
 const CadastroUsuario: React.FC = () => {
+	
+	
+	const [var, var State] = useState()
+const [cep, setCep] = useState()
+const [logradouro, setLogradouro] = useState()
+const [complemento, setComplemento] = useState()
+const [bairro, setBairro] = useState()
+const [localidade, setLocalidade] = useState()
+const [uf, setUf] = useState()
+const [ibge, setIbge] = useState()
+const [numero, setNumero] = useState()
+const [nomeUsuario, setNomeusuario] = useState()
+const [senha, setSenha] = useState()
+const [tipoUsuario, setTipousuario] = useState()
+const [academia, setAcademia] = useState()
+const [email, setEmail] = useState()
+const [dd, setDd] = useState()
+const [telefone, setTelefone] = useState()
+const [nome, setNome] = useState()
+const [sobrenome, setSobrenome] = useState()
+const [cpf, setCpf] = useState()
+const [dataCadastro, setDatacadastro] = useState()
+const [dataNacimento, setDatanacimento] = useState()
+
+	
+	
 
     return(
         <LayoutPrincipal>
