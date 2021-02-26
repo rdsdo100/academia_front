@@ -6,15 +6,13 @@ import BarraOpcoes from "../../BarraOpcoes";
 const LayoutCadastro: React.FC = ({ children }) => {
     return(
       <Container>
-          {children}
-          <BarraOpcoes>
+        <BarraOpcoes>
               <Teste>
                   <TesteIcons></TesteIcons>
               </Teste>
               <Teste></Teste>
-
-
           </BarraOpcoes>
+          {children}
       </Container>
     )
 }

@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 import {RiUserAddLine} from "react-icons/ri";
 
-export const Container = styled.div`
+export const   Container = styled.div`
   grid-area: CT ;
   display: grid;
-  grid-template-columns:  70px calc(100% - 70px)  ;
+  grid-template-columns:  70px auto  ;
   grid-template-rows:   100% ;
   grid-template-areas:
           'OP CTT';
  
+  
+box-sizing: border-box;
 `;
 
 export const Teste = styled.div`

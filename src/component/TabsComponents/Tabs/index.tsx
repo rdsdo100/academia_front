@@ -1,5 +1,6 @@
 import React from 'react';
-import {Content, LabelTabs, LI, RdTabs} from "./styles";
+import {Content, LabelTabs, LI, RdTabs,TabBody} from "./styles";
+import {NavTabs, UL} from "../Tab/styles";
 
 interface ITab {
     IdNameTab: string
@@ -8,21 +9,22 @@ interface ITab {
 }
 
 
-const TabBody: React.FC<ITab> = ({children ,
+const Tabs: React.FC<ITab> = ({children ,
                                      defaultCheckedTab ,
                                      text,
                                      IdNameTab}) => (
 
     <LI>
-        <div>
+        <TabBody>
             <RdTabs type='radio' name='tabs' id={IdNameTab}  defaultChecked={  defaultCheckedTab ? true : false  } />
             <LabelTabs  htmlFor={IdNameTab}>{text}</LabelTabs>
             <Content>
                 {children}
             </Content>
-        </div>
+        </TabBody>
     </LI>
+
 );
 
-export default TabBody
+export default Tabs
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const LI = styled.div`
+export const LI = styled.li`
   float: left;
 `;
 
@@ -40,4 +40,8 @@ export const RdTabs = styled.input`
     display: block;
   }
   
+`;
+
+export const TabBody = styled.div`
+ 
 `;

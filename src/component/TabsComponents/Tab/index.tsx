@@ -6,7 +6,7 @@ const Tab: React.FC = ({children}) => (
         <UL>
             {children}
         </UL>
-    </NavTabs>
+          </NavTabs>
 )
 
 export default Tab
