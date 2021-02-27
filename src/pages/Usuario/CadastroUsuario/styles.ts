@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-export const Form = styled.form`
+export const Form = styled.div`
 
-    grid-area: CT;
-  position: absolute;
+  grid-area: CTT;
   margin: 10px;
   display: flex;
   flex-direction: column;

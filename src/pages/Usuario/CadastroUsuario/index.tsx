@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ChangeEvent, FormEvent, MouseEventHandler, useState} from 'react';
 import LayoutPrincipal from "../../../component/Layout/LayoutPrincipal";
 import LayoutCadastro from "../../../component/Layout/LayoutCadastro";
 import {Tabs, Tab} from '../../../component/TabsComponents'
@@ -8,6 +8,7 @@ import InputCadastro from "../../../component/input/InputCadastro";
 import Toggle from "../../../component/input/Toggle";
 import InputDate from "../../../component/input/InputDate";
 import Button from "../../../component/Buttons/Button";
+import {api} from "../../../services/api";
 
 interface IEndereco{
     cep: string
@@ -21,15 +22,15 @@ interface IEndereco{
 
 }
 
-interface Iusuario{
+interface IUsuario{
         nomeUsuario: string
         senha: string
-        tipoUsuario: number
+        tipoUsuario?: number
         academia: number
 }
 
 interface IEmail{
-    email: string
+    emails: string
 }
 
 interface ITelefone{
@@ -42,36 +43,175 @@ interface IPessoa{
     sobrenome: string
     cpf: string
     dataCadastro?: Date
-    dataNacimento: Date
+    dataNacimento?: Date
+}
+interface ICadastroPessoa {
+    usuario: IUsuario
+    pessoa: IPessoa
+    endereco: IEndereco
+    telefone: ITelefone
+    email: IEmail
 }
 
 const CadastroUsuario: React.FC = () => {
-	
-	
-	const [var, var State] = useState()
-const [cep, setCep] = useState()
-const [logradouro, setLogradouro] = useState()
-const [complemento, setComplemento] = useState()
-const [bairro, setBairro] = useState()
-const [localidade, setLocalidade] = useState()
-const [uf, setUf] = useState()
-const [ibge, setIbge] = useState()
-const [numero, setNumero] = useState()
-const [nomeUsuario, setNomeusuario] = useState()
-const [senha, setSenha] = useState()
-const [tipoUsuario, setTipousuario] = useState()
-const [academia, setAcademia] = useState()
-const [email, setEmail] = useState()
-const [dd, setDd] = useState()
-const [telefone, setTelefone] = useState()
-const [nome, setNome] = useState()
-const [sobrenome, setSobrenome] = useState()
-const [cpf, setCpf] = useState()
-const [dataCadastro, setDatacadastro] = useState()
-const [dataNacimento, setDatanacimento] = useState()
 
-	
-	
+
+    const [cep, setCep] = useState<string>('')
+    const [logradouro, setLogradouro] = useState<string>('')
+    const [complemento, setComplemento] = useState<string>('')
+    const [bairro, setBairro] = useState<string>('')
+    const [localidade, setLocalidade] = useState<string>('')
+    const [uf, setUf] = useState<string>('')
+    const [ibge, setIbge] = useState<string>('')
+    const [numero, setNumero] = useState<string>('')
+    const [nomeUsuario, setNomeUsuario] = useState<string>('')
+    const [senha, setSenha] = useState<string>('')
+    const [tipoUsuario, setTipoUsuario] = useState<Number>(0)
+    const [academia, setAcademia] = useState<number>(0)
+    const [emails, setEmails] = useState<string>('')
+    const [dd, setDd] = useState<string>('')
+    const [telefone, setTelefone] = useState<string>('')
+    const [nome, setNome] = useState<string>('')
+    const [sobrenome, setSobrenome] = useState<string>('')
+    const [cpf, setCpf] = useState<string>('')
+    const [dataCadastro, setDatacadastro] = useState<Date>()
+    const [dataNacimento, setDatanacimento] = useState<Date>()
+
+    function handleCpf(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setCpf(String(value))
+    }
+
+    function handleNome(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setNome(String(value))
+    }
+
+    function handleSbreNome(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setSobrenome(String(value))
+    }
+
+    function handleEmail(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setEmails(String(value))
+    }
+
+    function handleDd(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setDd(String(value))
+    }
+
+    function handleTelefone(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setTelefone(String(value))
+    }
+
+    function handleTipoUsuario(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setTipoUsuario(Number(value))
+    }
+
+    function handleSenha(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setSenha(String(value))
+    }
+
+    function handleCep(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setCep(String(value))
+    }
+
+    function handleLogradouro(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setLogradouro(String(value))
+    }
+
+    function handleComplemento(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setComplemento(String(value))
+    }
+
+    function handleBairro(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setBairro(String(value))
+    }
+
+    function handleLocalidade(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setLocalidade(String(value))
+    }
+
+    function handleUF(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setUf(String(value))
+    }
+
+    function handleIbge(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setIbge(String(value))
+    }
+
+    function handleNumero(event: ChangeEvent<HTMLInputElement>) {
+        const {value} = event.target
+        setNumero(String(value))
+    }
+
+    function handleNomeUsuario(event: ChangeEvent<HTMLInputElement>) {
+    const {value} = event.target
+    setNomeUsuario(String(value))
+}
+
+    async function handleCadastrarButton(){
+
+        let enviar: ICadastroPessoa
+
+        const pessoa:IPessoa = {
+            nome ,
+            sobrenome,
+            cpf,
+            dataCadastro,
+            dataNacimento
+        }
+
+        const endereco: IEndereco = {
+            cep,
+            logradouro,
+            complemento,
+            bairro,
+            localidade,
+            uf,
+            ibge,
+            numero,
+        }
+
+        const telefone: ITelefone = {
+            dd,
+               telefone : ''
+        }
+
+        const usuario: IUsuario = {
+            nomeUsuario,
+            senha,
+            academia
+        }
+
+        const email: IEmail = {
+            emails
+        }
+
+        enviar = {
+            pessoa, endereco, usuario, telefone, email
+        }
+
+        api.post<IPessoa>('/test' , enviar , {headers:{
+            ok: "ok"
+            }}).then(x=>{
+                console.log(x.status)
+        })
+        console.log(enviar)
+
+    }
 
     return(
         <LayoutPrincipal>
@@ -82,13 +222,13 @@ const [dataNacimento, setDatanacimento] = useState()
                         <Tabs IdNameTab={'tab1'} text={"Pessoa"} defaultCheckedTab={true} >
                             <DivLinha>
                                 <Div30>
-                                    <InputCadastro >CPF</InputCadastro>
+                                    <InputCadastro name="CPF" onChange={handleCpf} >CPF</InputCadastro>
                                 </Div30>
                                 <Div20>
-                                    <InputDate>Data de Nacimento</InputDate>
+                                    <InputDate name="dataNacimento" >Data de Nacimento</InputDate>
                                 </Div20>
                                 <Div20>
-                                    <InputDate>Data de Cadastro</InputDate>
+                                    <InputDate name="dataCadastro">Data de Cadastro</InputDate>
                                 </Div20>
 
                                 <Toggle/>
@@ -97,41 +237,41 @@ const [dataNacimento, setDatanacimento] = useState()
 
                             <DivLinha>
                                 <Div40>
-                                    <InputCadastro>Nome</InputCadastro>
+                                    <InputCadastro name='nome'onChange={handleNome} >Nome</InputCadastro>
                                 </Div40>
                                 <Div60>
-                                    <InputCadastro>SobreNome</InputCadastro>
+                                    <InputCadastro name='sobremome' onChange={handleSbreNome} >SobreNome</InputCadastro>
                                 </Div60>
                             </DivLinha>
 
                             <DivLinha>
                                 <Div60>
-                                    <InputCadastro type='email'>email</InputCadastro>
+                                    <InputCadastro type='email' name='email' onChange={handleEmail} >email</InputCadastro>
                                 </Div60>
                             </DivLinha>
 
                             <DivLinha>
                                 <Div20>
-                                    <InputCadastro type='text'>DD</InputCadastro>
+                                    <InputCadastro type='text' name='dd' onChange={handleDd}>DD</InputCadastro>
                                 </Div20>
                                 <Div60>
-                                    <InputCadastro type='text'>telefone</InputCadastro>
+                                    <InputCadastro type='text' name='telefone' onChange={handleTelefone}>telefone</InputCadastro>
                                 </Div60>
 
                             </DivLinha>
 
                             <DivLinha>
                                 <Div50>
-                                    <InputCadastro>Nome de Usuário</InputCadastro>
+                                    <InputCadastro name='nomeUsuário' onChange={handleNomeUsuario} >Nome de Usuário</InputCadastro>
                                 </Div50>
                                 <Div30>
-                                    <InputCadastro>Nível Usuário</InputCadastro>
+                                    <InputCadastro name='nivelUsuario' onChange={handleTipoUsuario} >Nível Usuário</InputCadastro>
                                 </Div30>
                             </DivLinha>
 
                             <DivLinha>
                                 <Div60>
-                                    <InputCadastro type='password'>Senha</InputCadastro>
+                                    <InputCadastro type='password' name='senha' onChange={handleSenha}>Senha</InputCadastro>
                                 </Div60>
                             </DivLinha>
 
@@ -140,41 +280,34 @@ const [dataNacimento, setDatanacimento] = useState()
                         <Tabs IdNameTab={'tab2'} text={"Endereço"} >
                             <DivLinha>
                                 <Div40>
-                                    <InputCadastro>Cep</InputCadastro>
+                                    <InputCadastro name='cep' onChange={handleCep} >Cep</InputCadastro>
                                 </Div40>
                             </DivLinha>
                             <DivLinha>
-                                <InputCadastro>logradouro</InputCadastro>
-                                <InputCadastro>complemento</InputCadastro>
+                                <InputCadastro name='logradouro' onChange={handleLogradouro} >Logradouro</InputCadastro>
+                                <InputCadastro name="complemento"onChange={handleComplemento}>Complemento</InputCadastro>
                             </DivLinha>
                             <DivLinha>
-                                <InputCadastro>bairro</InputCadastro>
-                                <InputCadastro>localidade</InputCadastro>
-                                <InputCadastro>UF</InputCadastro>
+                                <InputCadastro name='bairro' onChange={handleBairro} >Bairro</InputCadastro>
+                                <InputCadastro name="localidade" onChange={handleLocalidade} >Localidade</InputCadastro>
+                                <InputCadastro name="UF" onChange={handleUF}>UF</InputCadastro>
                             </DivLinha>
                             <DivLinha>
-                                <InputCadastro>ibge</InputCadastro>
-                                <InputCadastro>numero</InputCadastro>
-                                <InputCadastro>logradouro</InputCadastro>
+                                <InputCadastro name='ibge' onChange={handleIbge} >Ibge</InputCadastro>
+                                <InputCadastro name="numero" onChange={handleNumero}>Número</InputCadastro>
                             </DivLinha>
 
 
                         </Tabs>
                         <Tabs IdNameTab={'tab3'} text={"Permissões"} >
 
-                            <Button>Salvar</Button>
-
                         </Tabs>
-
-
 
                     </Tab>
 
-
-                    <Button>Salvar</Button>
+                    <Button type='button' onClick={handleCadastrarButton}>Salvar</Button>
+                    <Button>Cancelar</Button>
                 </Form>
-
-
 
             </LayoutCadastro>
         </LayoutPrincipal>
